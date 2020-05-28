@@ -1,0 +1,32 @@
+---
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - 'Rakefile'
+    - 'tasks/**/*'
+
+Layout/AlignParameters:
+  Enabled: false
+Layout/ClosingParenthesisIndentation:
+  Enabled: false
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+Metrics/LineLength:
+  Max: 200
+
+Naming/FileName:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Lambda:
+  EnforcedStyle: literal
+Style/StringLiterals:
+  Exclude:
+    - '*.gemspec'
+    - 'Gemfile'
